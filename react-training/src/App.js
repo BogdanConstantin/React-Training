@@ -1,15 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Welcome from './components/Welcome';
+import Header from './header/header';
+import Search from './search/search';
+import Cocktails from './cocktails/cocktails';
+import { Route, Switch } from 'react-router-dom';
+import ViewCocktail from './cocktails/cocktails-category/view-cocktail/view-cocktail';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Welcome/>
-      </header>
+    <div>
+      <Header/>
+      <Search/>
+      <Switch>
+        <Route exact path='/' component={Cocktails}></Route>
+        <Route exact path='/details/:imageId' component={ViewCocktail}></Route>
+      </Switch>
     </div>
   );
 }

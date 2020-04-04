@@ -1,0 +1,13 @@
+.category-text {
+    display: flex;
+    justify-content: center;
+    color: #FF6A3D;
+}
+
+.cocktails-category {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}

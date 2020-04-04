@@ -1,0 +1,25 @@
+.details-page {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.details-page-image {
+    height: 400px;
+}
+
+.title {
+    background-color: #FF6A3D;
+    color: #B0FFDD;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.undo {
+    background-color: #FF6A3D;
+    color: #B0FFDD;
+    width: 5%;
+    margin-left: 10px;
+}

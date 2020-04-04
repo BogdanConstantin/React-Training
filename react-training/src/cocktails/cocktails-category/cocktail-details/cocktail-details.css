@@ -1,0 +1,35 @@
+.details{
+    display: flex;
+    justify-content: center;
+}
+
+.details-image {
+    height: 350px;
+    margin-top : 10px;
+}
+
+.first-half {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.second-half {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.undo-details {
+    background-color: #FF6A3D;
+    color: #B0FFDD;
+    width: 30%;
+}
+
+.title {
+    background-color: #FF6A3D;
+    color: #B0FFDD;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}

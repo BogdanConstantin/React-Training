@@ -1,0 +1,20 @@
+.cocktail {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-image {
+    height: 250px;
+    cursor: pointer;
+}
+
+.title {
+    background-color: #FF6A3D;
+    color: #B0FFDD;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
